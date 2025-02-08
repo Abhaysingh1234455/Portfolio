@@ -48,4 +48,13 @@
     transform: scale(1.05);
     box-shadow: 0 4px 15px rgba(181, 22, 249, 0.5);
   }
+  .about-title{
+    margin-bottom: 47px;
+    font-size: 49px;
+  }
+  .view-btn{
+    margin: 16px;
+    padding: 26px 35px;
+    font-size: 21px;
+  }
   

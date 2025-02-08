@@ -1,7 +1,10 @@
 .contact {
     padding: 6rem 0;
   }
-  
+  .section-title{
+    margin: 59px;
+    font-size: 52px;
+  }
   .contact-content {
     display: grid;
     grid-template-columns: 1fr 1fr;

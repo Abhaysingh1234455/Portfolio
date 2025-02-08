@@ -8,9 +8,7 @@ export default function Footer() {
           <h2>
             ABH<span className="gradient-text">AY</span>
           </h2>
-          <p>
-            
-          </p>
+          
         </div>
         <div className="footer-right">
           <div className="footer-links">

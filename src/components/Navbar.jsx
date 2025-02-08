@@ -19,12 +19,12 @@ export default function Navbar() {
         </button>
 
         <div className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <a href="#home">Home</a>
-          <a href="#about">About Me</a>
+          <a href="/">Home</a>
+          <a href="#About">About Me</a>
           <a href="#Skills">Skills</a>
           <a href="#portfolio">Portfolio</a>
           <a href="#contact">Contact</a>
-          {/* <button className="connect-btn gradient-bg">Connect With Me</button> */}
+          
         </div>
       </div>
     </nav>

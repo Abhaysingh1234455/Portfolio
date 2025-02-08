@@ -26,7 +26,7 @@ const skillsData = [
 function Skills() {
   return (
     <div className="container mx-auto py-16" id='Skills'>
-      <h1 className="text-4xl font-extrabold mb-10 text-center">Skills</h1>
+      <h1 className="text-4xl font-extrabold mb-10 text-center "><span className='gradient-text'>S</span>kills</h1>
       <div className="icons">
         {skillsData.map((skill, index) => (
           <div

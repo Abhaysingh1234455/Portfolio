@@ -1,12 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 // import React from "react";
 import "./About.css";
-
 const About = () => {
-  return (
-    <section className="about">
+  const handleScrollToContact = () => {
+    // Use native JavaScript to scroll to the 'contact' section
+    const contactSection = document.getElementById("portfolio");
+    contactSection?.scrollIntoView({ behavior: "smooth" });}
+
+  return (<>
+    {/* <StarfieldBackground/> */}
+    <section className="about" id="About">
       <div className="about-container">
-        <h2 className="gradient-text">About Me</h2>
+        <h2 className=" about-title">About <span className="gradient-text">Me</span></h2>
         <p className="about-description">
           Hey there! I'm <span className="highlight">Abhay Singh</span>, a passionate 
           <span className="highlight"> Software Engineer</span> who thrives on solving complex problems 
@@ -19,17 +24,18 @@ const About = () => {
           <span className="highlight"> Deloitte Capstone Program</span>, where I managed a diverse team to deliver real-world business solutions. 
           My experience at AISEC as an Event Head sharpened my leadership, collaboration, and organizational abilities.
         </p>
-        {/* <p className="about-description">
+        <p className="about-description">
           With hands-on expertise in <span className="highlight"> React, Node.js, Flask, Django, 
           Spring Boot, and cloud platforms like AWS</span>, I have built scalable applications such as a 
           <span className="highlight"> Music Streaming Website, Sales Analysis Dashboard, and a Student Budget Tracker</span>. 
           My passion lies in crafting seamless user experiences and data-driven applications.
-        </p> */}
+        </p>
         <div className="about-buttons">
-          <button className="btn-gradient">View My Work</button>
+          <button className="btn-gradient view-btn"  onClick={handleScrollToContact} >View My Work</button>
         </div>
       </div>
     </section>
+    </>
   );
 };
 

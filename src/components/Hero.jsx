@@ -2,13 +2,13 @@
 import "./Hero.css";
 
 export default function Hero() {
-  const handleScrollToContact = () => {
-    // Use native JavaScript to scroll to the 'contact' section
-    const contactSection = document.getElementById("contact");
-    contactSection?.scrollIntoView({ behavior: "smooth" });
+  const handleClick = () => {
+    // Replace with your actual LinkedIn URL
+    window.open("https://www.linkedin.com/in/abhay-singh-457704246/", "_blank");
+
   };
   return (
-    <section className="hero container">
+    <section className="hero container" id="home">
       <div className="hero-content">
         {/* <div className="profile-image">
           <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-02-04%20at%201.55.01%E2%80%AFPM-CeE2JuIFaeqWXh5AIZW7MiKmYoRihR.png" alt="Profile" />
@@ -21,7 +21,7 @@ export default function Hero() {
           something to do with computers.
         </p>
         <div className="hero-buttons">
-          <button onClick={handleScrollToContact} className="gradient-bg">Connect with me</button>
+          <button onClick={handleClick} className="gradient-bg">Connect with me</button>
           <a href="/resume.pdf" download="My_Resume.pdf"/>
           <button
              onClick={() => window.open("/resume.pdf", "_blank", "noopener,noreferrer")}
