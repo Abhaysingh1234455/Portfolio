@@ -1,0 +1,51 @@
+/* About Section Styles */
+.about {
+    background-color: none; /* Black background */
+    color: #fff; /* White text */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+} /* Purple title */
+  
+  .about-description {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #9ca3af; /* Light gray text */
+  }
+  
+  .highlight {
+    color: #ec8840; /* Orange highlight for keywords */
+    font-weight: bold;
+  }
+  
+  .about-buttons {
+    margin-top: 30px;
+  }
+  
+  .btn-gradient {
+    background: linear-gradient(to right, #9333ea, #fb923c);
+    color: white;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 999px; /* Fully rounded button */
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .btn-gradient:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(181, 22, 249, 0.5);
+  }
+  

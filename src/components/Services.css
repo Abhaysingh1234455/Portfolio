@@ -1,0 +1,99 @@
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+  }
+  
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 7rem;
+  }
+  
+  .icons div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icons span {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  /* Icon Colors */
+  .si-cplusplus {
+    color: #00599c;
+  }
+  
+  .si-css3 {
+    color: #264de4;
+  }
+  
+  .si-express {
+    color: #808080;
+  }
+  
+  .fa-git-alt {
+    color: #f05032;
+  }
+  
+  .fa-github {
+    color: #ffffff;
+  }
+  
+  
+  .si-html5 {
+    color: #e34f26;
+  }
+  
+  .fa-java {
+    color: #007396;
+  }
+  
+  .si-javascript {
+    color: #f7df1e;
+  }
+  
+  .fa-linux {
+    color: #fcc624;
+  }
+  
+  .fa-react {
+    color: #61dafb;
+  }
+
+  .si-mongodb {
+    color: #4DB33D;
+  }
+  .text-teal-400{
+    color: #06B6D4;
+  }
+  .text-purple-600 {
+    color: #7952B3;
+  }
+  .text-green-600 {
+    color: #339933;
+  }
+  .text-blue-500 {
+    color: #336791;
+  }
+  .text-yellow-600 {
+    color: #FFD43B;
+  }
+  .text-gray-800 {
+    color: #ffffff;
+  }
+  
